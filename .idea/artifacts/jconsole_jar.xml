@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="jconsole:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/jconsole_jar</output-path>
+    <root id="archive" name="jconsole.jar">
+      <element id="module-output" name="jconsole" />
+    </root>
+  </artifact>
+</component>

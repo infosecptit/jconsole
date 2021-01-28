@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@10.13.37.12">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.19">
+    <root id="1">
+      <ServerVersion>15.0.2070</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Current>1</Current>
+      <Collation>Latin1_General_CI_AS</Collation>
+      <Fingerprint>1.37717/00000000-0000-0000-0000-000000000000@WEB\WEBDB</Fingerprint>
+    </database>
+    <database id="3" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>Latin1_General_CI_AS</Collation>
+    </database>
+    <database id="4" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>Latin1_General_CI_AS</Collation>
+    </database>
+    <database id="5" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>Latin1_General_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="webapp">
+      <ObjectId>5</ObjectId>
+      <Collation>Latin1_General_CI_AS</Collation>
+      <Fingerprint>1.37717/00000000-0000-0000-0000-000000000000@WEB\WEBDB</Fingerprint>
+    </database>
+  </database-model>
+</dataSource>
